@@ -1,7 +1,6 @@
 function tentukanDeretGeometri(arr) {
-  var count = arr[0];
   var result = parseInt(arr[arr.length-1]);
-  var selisih = arr[1]/arr[0]
+  var selisih = arr[1]/arr[0];
   for(var i=arr.length-1;i>=0;i--){
   	result /= selisih
   	if(result==arr[i-1]){
